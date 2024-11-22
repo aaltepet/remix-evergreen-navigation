@@ -16,11 +16,13 @@
     "@remix-run/react": "^2.13.1",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
+    "evergreen-ui": "^7.1.9",
     "express": "^4.19.2",
     "isbot": "^4.1.0",
     "morgan": "^1.10.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-is": "^18.3.1"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.13.1",
@@ -44,7 +46,5 @@
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.2.1"
   },
-  "engines": {
-    "node": ">=20.0.0"
-  }
+  "packageManager": "yarn@3.4.1+sha512.a333bf9c2557d71f5ba87dd1446cde24bb9c35301ec29dd2baba577b3f9d1ab61348b66a1324de9088c40a996c5b9203794da8bf14cab9fae6a6eccc00cb8078"
 }

@@ -1,5 +1,37 @@
 node_modules
 
-/.cache
-/build
+# Possible Logs
+*.log
+.log
+yarn-debug.log*
+yarn-error.log*
+
+# Artifacts from Building
+node_modules/
+typings/
+**/*/build/
+*.tsbuildinfo
+.eslintcache
+.yarn-integrity
+
+.cache
 .env
+__pycache__
+
+#Postgres table load
+dist/data-sources/*
+dist/downloads/*
+
+
+# Please never commit this file
+.DS_Store
+
+#https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+# not yet ready for yarn zeroinstalls (adds 136MB to repo)
+#!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
